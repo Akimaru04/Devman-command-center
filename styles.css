@@ -276,3 +276,22 @@ nav button:hover{
         width: 80%;
     }
 }
+
+/* 📅 Date & ⏰ Time input styling */
+input[type="date"],
+input[type="time"] {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus {
+    border-color: #3b82f6; /* match navbar blue */
+    box-shadow: 0 0 6px rgba(59,130,246,0.4);
+}
