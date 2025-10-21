@@ -295,3 +295,29 @@ input[type="time"]:focus {
     border-color: #3b82f6; /* match navbar blue */
     box-shadow: 0 0 6px rgba(59,130,246,0.4);
 }
+
+/*logout button*/
+nav .logout{
+    float: right;
+    display: block;
+    margin-left: auto;
+    background-color: #3b82f6; /* lighter blue */
+    padding: 0.5rem;
+}
+
+nav .logout{
+    padding: 0.5rem 1rem;
+    border: none;
+    background: white;
+    color: #1e3a8a;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+nav .logout:hover{
+    background-color: #1e40af; /* very light blue */
+    color: white;
+    transform: scale(1.05);
+}

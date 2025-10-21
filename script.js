@@ -97,20 +97,33 @@ function navigateTo(section) {
                             <div class="highlights-cards">
                                 <div class="highlight-card">
                                     <h3>Certifications</h3>
-                                    <p>Cisco Intro to Cybersecurity, NC 3 Java and Web App Development</p>
+                                    <p>Cisco Intro to Cybersecurity | NC 3 Java and Web App Development</p>
                                 </div>
                                 <div class="highlight-card">
                                     <h3>Technical Skills</h3>
-                                    <p>Web Development, Network Security, Programming, Hardware Troubleshooting</p>
+                                    <p>Web Development | Network Security | Programming | Hardware Troubleshooting</p>
                                 </div>
                                 <div class="highlight-card">
                                     <h3>Projects</h3>
-                                    <p>Time Tracker and KPI System, DevMan Command Center</p>
+                                    <p>Time Tracker and KPI System | DevMan Command Center</p>
+                                </div>
+                                <div class="highlight-card">
+                                    <h3>Trainings</h3>
+                                    <p>SC-900 Microsoft Security, Compliance and Identity Fundamentals | Python Software Programming 101</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+            `;
+            break;
+
+            case 'logout':
+            content.innerHTML = `
+                <div class="highlight-card">
+                    <h2>Logout</h2>
+                    <p>You have been logged out. See you next time!</p>
+                </div>
             `;
             break;
     }
